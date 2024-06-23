@@ -1,0 +1,3 @@
+class TopFilms {
+  String? image;
+}

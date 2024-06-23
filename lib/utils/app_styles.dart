@@ -1,33 +1,26 @@
-
 import 'package:flutter/material.dart';
 
-  class AppStyles {
-    static const TextStyle h1 = TextStyle(
+class AppStyles {
+  static const h1 = TextStyle(
       fontFamily: 'Poppins',
-      fontWeight: FontWeight.normal,
       fontSize: 20.0,
-    );
+      color: Colors.white);
 
-    static const TextStyle h2 = TextStyle(
+  static const h2 = TextStyle(
       fontFamily: 'Poppins',
-      fontWeight: FontWeight.normal,
       fontSize: 18.0,
-    );
+      color: Colors.white);
 
-    static const TextStyle h3 = TextStyle(
+  static const h3 = TextStyle(
       fontFamily: 'Poppins',
-      fontWeight: FontWeight.normal,
       fontSize: 16.0,
-    );
+      color: Colors.white);
 
-    static const TextStyle h4 = TextStyle(
+  static const h4 = TextStyle(
       fontFamily: 'Poppins',
-      fontWeight: FontWeight.normal,
       fontSize: 14.0,
-    );
+      color: Colors.white);
 
-    static const TextStyle textFieldStyle = TextStyle(
-      fontFamily: 'Poppins',
-      fontSize: 16.0,
-    );
+  static const TextStyle textFieldStyle =
+      TextStyle(fontFamily: 'Poppins', fontSize: 16.0, color: Colors.white);
 }
